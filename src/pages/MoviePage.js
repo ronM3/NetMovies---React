@@ -39,16 +39,10 @@ const MoviePage = () => {
               <ListGroup variant="flush">
                 <ListGroup.Item>
                   <Row>
-                    <Col>Price:</Col>
-                    <Col xs={4}>
+                    <Col>Budget:</Col>
+                    <Col sm={12} md={6} lg={4} xl={12}>
                       <strong>${movie.budget}</strong>
                     </Col>
-                  </Row>
-                </ListGroup.Item>
-
-                <ListGroup.Item>
-                  <Row>
-                    <Col>Status:</Col>
                   </Row>
                 </ListGroup.Item>
               </ListGroup>
